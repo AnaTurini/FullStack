@@ -1,0 +1,66 @@
+body{
+    background-color:lightgray
+}
+.cabeçalho{ background-color: bisque;
+    width: page;
+    height: 200px;
+    padding: 20px;
+    border: 3px solid navy;
+    font-style:sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    font-style:sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: indigo
+}
+.menu{
+    background-color: lightskyblue;
+    width: page;
+    height: 40px;
+    justify-content: center;
+    text-align:center;
+    gap: 50px;
+    display: flex;
+    }
+.subtexto{
+    text-align: center;
+}
+.livros{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.Aprenda{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+
+
+table,tr,td{
+    justify-content: center;
+    border-collapse: separate;
+    border-style: dashed;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: red;
+}
+th{
+    color: red;
+}
+
+.consulta {
+
+    background-color: yellow;
+    width:400px;
+}
