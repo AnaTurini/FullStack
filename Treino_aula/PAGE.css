@@ -10,15 +10,16 @@
     justify-content: space-around;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: grey;
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 12px;
     border-bottom: 1px solid grey;
 }
 .jornal{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 10px;
-    
+    gap: 900px;
 }
 .data{
     display: flex;
@@ -44,32 +45,33 @@
 }
 .imagens{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
+    gap: 50px;
 }
 .festival{
     display: flex;
     border-top: 0.5px solid grey;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 40px;
     color: red;
     font-weight: bold;
-    align-items: center;
     justify-content: center;
 }
 .txtcar{
     display: flex;
-    width: 600px;
+    width: 780px;
     height: 80px;
     background-color: red;
-    margin-left: 20px;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     padding: 10px;
+}
+.txtcar .neg{
+    font-weight: bold;
 }
 .areavideo{
     display: flex;
@@ -84,9 +86,9 @@
     color: white;
     font-size: 25px;
 }
-.iframe{
+.areavideo iframe{
    display: flex;
-   margin-left: 200px;
+   margin-left: 70%;
    align-items: center;
    justify-content: center;
 }
@@ -99,7 +101,7 @@
     background-color: antiquewhite;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     padding: 20px 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -108,7 +110,7 @@
     color: grey;
 }
 .rodapé img{
-    width: 120px;
+    width: 220px;
 }
 .pg1, .pg2, .pg3{
     display: flex;
@@ -127,5 +129,45 @@
     gap: 8px;
 }
 .rodapeimg img{
-    width: 120px;
+    width: 220px;
+}
+.Subimg {
+    padding-top: 8px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+}
+.minitxt{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+.mlhrsorriso{
+    display: flex;
+    flex-direction: column;
+}
+.mlhrloira{
+    display: flex;
+    flex-direction: column;
+}
+.carro{
+    display: flex;
+    flex-direction: column;
+}
+.carro img{
+    width: 800px;
+}
+.mlhrsorriso img{
+    width: 400px;
+}
+.mlhrloira img{
+    width: 400px;
 }
