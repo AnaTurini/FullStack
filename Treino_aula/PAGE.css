@@ -1,0 +1,131 @@
+.background{
+    background-color: white;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid grey;
+}
+.jornal{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    color: grey;
+    padding-top: 15px;
+}
+.data .info{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    gap: 50px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+.data .redes{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    justify-content: center;
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.festival{
+    display: flex;
+    border-top: 0.5px solid grey;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.txtcar{
+    display: flex;
+    width: 600px;
+    height: 80px;
+    background-color: red;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 10px;
+}
+.areavideo{
+    display: flex;
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+.iframe{
+   display: flex;
+   margin-left: 200px;
+   align-items: center;
+   justify-content: center;
+}
+.rodapé{
+    display: flex;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: fit-content;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    gap: 10px;
+    color: grey;
+}
+.rodapé img{
+    width: 120px;
+}
+.pg1, .pg2, .pg3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+.pg3{
+    align-items: flex-start;
+}
+.rodapeimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+}
+.rodapeimg img{
+    width: 120px;
+}
