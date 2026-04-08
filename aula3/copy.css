@@ -47,7 +47,7 @@ body{
     align-items: center;
 }
 
-table,tr,{
+table,tr,td{
     justify-content: center;
     border-collapse: separate;
     border-style: dashed;
