@@ -47,12 +47,16 @@ body{
     align-items: center;
 }
 
-table,tr,td{
+table,tr,{
     justify-content: center;
     border-collapse: separate;
     border-style: dashed;
     width:fit-content;
     margin: auto;
+    border-color: red;
+}
+td{
+    border-style: solid;
     border-color: red;
 }
 th{
