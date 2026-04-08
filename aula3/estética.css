@@ -40,3 +40,9 @@ th, td {
     display: flex;
     margin-bottom: 10px;
 }
+.link{
+    color: #0e2c40;
+}
+td{
+    color: #0e2c40;
+}
