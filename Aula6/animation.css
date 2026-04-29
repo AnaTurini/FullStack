@@ -1,0 +1,11 @@
+#canvas{
+    background-image: url('tumblr_a8b1259381625eacadfd88e40e37ae73_1bdd0a86_500.png');
+    background-position: center; 
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.justify{
+    display: flex;
+    justify-content: center;
+}
