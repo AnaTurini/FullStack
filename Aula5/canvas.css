@@ -1,28 +1,22 @@
 #canvas{
-    background-color: aquamarine;
+    background-image: url('tumblr_a8b1259381625eacadfd88e40e37ae73_1bdd0a86_500.png');
+    background-position: center; 
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.justify{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-#canvas2{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+
 body{
     background-color:rgb(37, 51, 82) ;
 }
 h1{
     display: flex;
     justify-content: center;
-        color: #e0e0e0;
+    color: #e0e0e0;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     padding-top: 180px;
