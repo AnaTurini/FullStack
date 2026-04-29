@@ -1,42 +1,130 @@
 body{
-    background-image:linear-gradient( to right, #0e2c40, #26677c);
+    background-color: #dfdad1;
 }
-.fatos{
-    color:#C1E1A7
+.txtcab{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
-#Nome{
-    color:#efbc75
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
 }
-#pg{
-    color: #efbc75;
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 51, 82);
+    font-size: 18px;
+}
+.apr{
+    display: flex;
+    background-color:rgb(37, 51, 82);
+    justify-content: space-around;
+    align-items: center;
+    border: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .texto{
-    color:#148D8D
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(239, 239, 239);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(239, 239, 239);
+}
+.img1{
+    border-radius: 100px;
 }
 img{
+    border-radius: 20px;
+}
+.but{
+    background-color:rgb(239, 239, 239);
+    padding: 12px 24px;
     border-radius: 15px;
-    border: 2px solid #EFBC75;
+    cursor: pointer;
+    display: inline-block;
+}
+.but:active{
+    transform: scale(0.9);
+}
+.fatos{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 51, 82);
+}
+.coisas{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 140px;
+}
+hr{
+    height: 5px;
+    background-color: rgb(37, 51, 82);
+}
+.corpo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 51, 82) ;
+    font-size: 18px;
 }
 a{
-    color: #148D8D;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 51, 82);
 }
-a:hover {
-    color: #EFBC75;
+a:hover{
+    cursor: pointer;
+    color: blue;
 }
-.meu-iframe{
-    border-radius: 10px;       
+.viajar{
+    display:flex ;
+    justify-content: space-around;
+    background-color: rgba(189, 182, 182, 0.412);
 }
-table, th, td {
-  border: 2px solid #EFBC75;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: #148D8D
-}
-th, td {
-  padding: 15px;
-}
-.al{
+.txtimg{
+    margin-top: 30px;
     display: flex;
-    margin-bottom: 10px;
+    justify-content: center;
+    background-color: rgba(189, 182, 182, 0.412);
+}
+.fs{
+    display: flex;
+    justify-content: center;
+}
+.txtbut{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 51, 82) ;
+    font-size: 18px;
+}
+.viajar1{
+    display:flex ;
+    justify-content: space-around;
+    background-color: rgba(189, 182, 182, 0.412);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.txt2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(189, 182, 182, 0.412);
+    color:rgb(37, 51, 82) ;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td{
+    border: 2px solid rgb(37, 51, 82) ;
+}
+th, td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+th{
+    background-color:rgb(37, 51, 82) ;
 }
