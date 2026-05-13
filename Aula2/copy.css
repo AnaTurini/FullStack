@@ -1,0 +1,90 @@
+body{
+    background-color:lightgray
+}
+.cabeçalho{ background-color: bisque;
+    width: page;
+    height: 200px;
+    padding: 20px;
+    border: 3px solid navy;
+    font-style:sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    font-style:sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    color: indigo
+}
+.menu{
+    background-color: lightskyblue;
+    width: page;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    }
+.menu a {
+    color: red;
+}
+.subtexto{
+    text-align: center;
+}
+.livros{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.Aprenda{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+table,tr,td{
+    justify-content: center;
+    border-collapse: separate;
+    border-style: dashed;
+    width:fit-content;
+    margin: auto;
+    border-color: red;
+}
+td{
+    border-style: solid;
+    border-color: red;
+}
+th{
+    color: red;
+}
+.consulta {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-color: yellow;
+    border: 2px solid yellow;
+    width: 400px;
+}
+.rodape{
+    position: relative;
+    top: 30px;
+    background-color: bisque;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.rodape div{
+    flex: 1;
+    text-align: center;
+}
+.back{
+    padding-top: 20px;
+ display: flex;
+ justify-content: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link href="cadastrar.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>Página de Envio</h1>
+<h2>Cadastrar conteúdo</h2>
+<div class="acoes-topo">
+    <a href="/blog" class="botao-link">Ver Posts Publicados</a>
+</div>
+<form action="/cadastrar_post" method="POST">
+    <div class="field">
+        <label for="titulo">Título</label>
+        <input
+            type="text"
+            id="titulo"
+            name="titulo"
+            placeholder="Dê um título ao seu post..."
+            required>
+    </div>
+    <div class="field">
+        <label for="resumo">Resumo</label>
+        <input
+            type="text"
+            id="resumo"
+            name="resumo"
+            placeholder="Uma breve descrição do post...">
+    </div>
+    <div class="field">
+        <label for="conteudo">Conteúdo</label>
+        <textarea
+            id="conteudo"
+            name="conteudo"
+            placeholder="Escreva o conteúdo completo aqui..."
+            required></textarea>
+    </div>
+    <button type="submit">Publicar Post</button>
+</form>
+<br>
+<br>
+ <a class="back" href="projects.html">VOLTAR AOS PROJETOS</a>
+</body>

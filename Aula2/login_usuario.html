@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="cadastro">
+        <h1>Login</h1>
+        <p class="sub">Entre com suas informações</p>
+        <form action="/logar_usuario_carros" method="POST">
+            <div class="field">
+                <label>Login</label>
+                <input type="text" name="login" placeholder="Seu login" required>
+            </div>
+            <div class="field">
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="Sua senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+
+        <a href="cadastro_usuario.html" class="link">Não tem conta? <span>Cadastre-se</span></a>
+    </div>
+</body>
+</html>

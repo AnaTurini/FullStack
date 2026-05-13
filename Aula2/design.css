@@ -1,0 +1,380 @@
+body{
+    background-color: rgb(37, 51, 82);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    margin: 0;
+}
+
+/* =========================
+   TITULOS
+========================= */
+
+h1{
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2{
+    color: #a0a0b0;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.sub{
+    color: #a0a0b0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   FORMULARIOS
+========================= */
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #a0a0b0;
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.cadastro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 8px;
+    color: rgb(37, 51, 82);
+    font-size: 18px;
+}
+
+input{
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color: rgb(37, 51, 82);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+button:hover{
+    transform: scale(0.97);
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a{
+    color: #a0a0b0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #e0e0e0;
+}
+
+.link{
+    margin-top: 20px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+    width: 90%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1{
+    margin: 0;
+}
+
+header span{
+    color: #a0a0b0;
+}
+
+/* =========================
+   BOTOES TOPO
+========================= */
+
+.btn-gerenciar,
+.btn-voltar{
+    background-color: #a0a0b0;
+    color: rgb(37, 51, 82);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-gerenciar:hover,
+.btn-voltar:hover{
+    background-color: #e0e0e0;
+}
+
+/* =========================
+   CARDS CARROS
+========================= */
+
+.grid{
+    width: 90%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.carro-card{
+    background-color: #a0a0b0;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.carro-marca{
+    color: rgb(37, 51, 82);
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.carro-modelo{
+    color: rgb(37, 51, 82);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.carro-info{
+    color: rgb(37, 51, 82);
+    margin-bottom: 15px;
+}
+
+.qtde{
+    color: rgb(37, 51, 82);
+    font-size: 18px;
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.badge-disponivel,
+.badge-esgotado{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.badge-disponivel{
+    background-color: green;
+}
+
+.badge-esgotado{
+    background-color: crimson;
+}
+
+/* =========================
+   TABELA
+========================= */
+
+.tabela-wrap{
+    width: 90%;
+    max-width: 1100px;
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #a0a0b0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+thead{
+    background-color: rgb(37, 51, 82);
+}
+
+th{
+    color: white;
+    padding: 18px;
+}
+
+td{
+    color: rgb(37, 51, 82);
+    padding: 18px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #b4b4c0;
+}
+
+/* =========================
+   AÇÕES
+========================= */
+
+.acoes{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-editar{
+    background-color: rgb(37, 51, 82);
+}
+
+.btn-remover{
+    background-color: crimson;
+}
+
+.btn-vender{
+    background-color: green;
+}
+
+/* =========================
+   STATUS
+========================= */
+
+.disponivel{
+    color: green;
+    font-weight: bold;
+}
+
+.esgotado{
+    color: crimson;
+    font-weight: bold;
+}
+
+/* =========================
+   MODAL
+========================= */
+
+.modal-bg{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-bg.ativo{
+    display: flex;
+}
+
+.modal{
+    background-color: #a0a0b0;
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.modal h2{
+    color: rgb(37, 51, 82);
+}
+
+.btn-fechar{
+    margin-top: 10px;
+    background-color: crimson;
+}
+
+/* =========================
+   LAYOUT GERENCIADOR
+========================= */
+
+.layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.painel{
+    width: 90%;
+    max-width: 700px;
+}
+
+.tabela-wrap{
+    width: 90%;
+    max-width: 1100px;
+}
+
+/* =========================
+   EMPTY
+========================= */
+
+.empty{
+    background-color: #a0a0b0;
+    color: rgb(37, 51, 82);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    form{
+        width: 95%;
+    }
+
+    table{
+        font-size: 14px;
+    }
+
+    td,
+    th{
+        padding: 12px;
+    }
+}
